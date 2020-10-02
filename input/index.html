@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta es una pagina de ejemplo de Alejandro">
+    <meta name="robots " content="index,follow">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+
+            </article>
+
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+
+            <video  controls preload="auto"> 
+                <source src="video/videoloco.mp4">
+                <source src="video/videoloco.m4v">
+            </video>
+        </section>
+
+        
+        <ul>
+            <li></li>
+        </ul>
+        <section class="inputs">
+            <form action="">
+                <label for="nombre">
+                    <span>Cómo te llamas?</span>
+                    <input type="text" id="nombre">
+                </label>
+            </form>
+
+            <h3>Fomulario para marcar momento con distintos inputs </h3>
+            <form action="">
+                <label for="hora">
+                    <span>hora</span>
+                    <input type="time" id="hora" name="hora">
+                </label>
+                <label for="día">
+                    <span>día</span>
+                    <input type="date" id="día" name="día">
+                </label>
+                <label for="semana">
+                    <span>semana</span>
+                    <input type="week" id="semana" name="semana">
+                </label>
+                <label for="mes">
+                    <span>mes</span>
+                    <input type="month" id="mes" name="mes">
+                </label>
+                <input type="submit">
+            </form>
+            <form action="">
+                <label for="momento-exacto">
+                    <input type="datetime-local" id="momento-exacto" name="momento-exacto">
+
+                </label>
+            </form>
+
+
+            <br>
+
+
+            <h3>Fomulario con autocomplete </h3>
+
+            <form action="">
+                <label for="nombre">
+                    <span> ¿Cual es tu nombre?</span>
+                    <input type="text" name="nombre" id="nombre" autocomplete="name">
+                </label>
+                <label for="correo">
+                    <span> ¿Cual es tu correo?</span>
+                    <input type="mail" name="correo" id="correo" autocomplete="email">
+                </label>
+                <label for="pais">
+                    <span> ¿En que pais vives?</span>
+                    <input type="text" name="pais" id="pais" autocomplete="country">
+                </label>
+                <label for="cp">
+                    <span> ¿Cual es tu CP?</span>
+                    <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+                </label>
+                
+                <input type="submit">
+            
+            </form>
+            
+            <h3>sin DATALIST (pueden tipear para que aparezca la opcion)</h3>
+            <select name="cursos" id="">
+                <option value="JavaScript"> JavaScript</option>
+                <option value="HTML5"> HTML5</option>
+                <option value="CSS3">CSS3</option>
+                <option value="Desarrolllo Web">Desarrolllo Web</option>
+            </select>
+
+
+            <h3>con DATALIST (pueden tipear para que aparezca la opcion)</h3>
+            <input list="cursos">
+            <datalist id="cursos">
+                <option value="JavaScript"></option>
+                <option value="HTML5"></option>
+                <option value="CSS3"></option>
+                <option value="Desarrolllo Web"></option>
+            </datalist>
+            
+            <h3>personalizar submit vs button</h3>
+
+            <input type="submit" value="Nombre" />
+            <button type="submit">Qué color te gusta?</button> 
+    
+
+        </section>
+
+
+    </main>
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>
