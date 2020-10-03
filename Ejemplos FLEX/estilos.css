@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+background: grey;
+}
+
+.grupo  {
+    margin: 20px;
+    border: black;
+    background: white;
+    min-height:  200px;
+    display: flex;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.flex-strech  {
+    display: flex;
+    align-items: stretch;
+
+}
+.flex-strech .box {
+    height: inherit;
+}
+
+.grupo .box1{
+    background: lightgoldenrodyellow;
+}
+.grupo .box2{
+    background: lightslategray;
+}
+.grupo .box3{
+    background: lightgreen;
+}
+.grupo .box4{
+    background: lightsalmon;
+}
+.grupo.box5{
+    background: lightblue;
+}
+.grupo .box6{
+    background: lightcoral;
+}
+
+
+
+
+
+
+.flex-baseline  {
+    display: flex;
+    align-items: baseline;
+
+}
+.flex-baseline .box {
+    height: inherit;
+}
+
+
+
+.flex-orden {
+
+}
+
+.flex-orden .box1{
+    background: lightgoldenrodyellow;
+    order: 3;
+}
+.flex-orden .box2{
+    background: lightslategray;
+    order: 1;
+}
+.flex-orden .box3{
+    background: lightgreen;
+    /* order: 6; */
+}
+.flex-orden .box4{
+    background: lightsalmon;
+    order: 5;
+}
+.flex-orden.box5{
+    background: lightblue;
+    /* order: 4; */
+}
+.flex-orden .box6{
+    background: lightcoral;
+    order: 2;
+}
+
+
+
+
+.flex-grow {
+
+}
+
+.flex-grow .box1{
+    background: lightgoldenrodyellow;
+    flex-grow: 1;
+   
+}
+.flex-grow .box2{
+    background: lightslategray;
+    
+}
+.flex-grow .box3{
+    background: lightgreen;
+    flex-grow: 1;
+}
+.flex-grow .box4{
+    background: lightsalmon;
+   
+}
+.flex-grow .box5{
+    background: lightblue;
+    
+}
+.flex-grow .box6{
+    background: lightcoral;
+    
+}
+
+.flex-Wrap_Grow{
+    flex-wrap: wrap;
+}
+
+.flex-Wrap_Grow .box{
+    /* height: inherit; */
+    
+    flex-grow: 1;
+
+
+}
+
+.flex-Wrap_Grow .box1{
+    background: lightgoldenrodyellow;
+    
+}
+.flex-Wrap_Grow .box2{
+    background: lightslategray;
+}
+.flex-Wrap_Grow .box3{
+    background: lightgreen;}
+    
+.flex-Wrap_Grow .box4{
+    background: lightsalmon;
+   
+}
+.flex-Wrap_Grow .box5{
+    background: lightblue;
+    
+}
+.flex-Wrap_Grow .box6{
+    background: lightcoral;
+    
+}
+
